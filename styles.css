@@ -1,0 +1,230 @@
+body {
+        margin: 0;
+        text-align: center;
+        color: #40514e;
+        font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif; 
+    }
+    h1 {
+        font-size: 6rem;
+        font-weight: bold;
+        margin-top: 50px;
+        margin-bottom: 10px;
+        font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif; 
+        color: white;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        font-style: normal;
+        font-family: 'Roboto', sans-serif;
+        color:#fff
+        margin-bottom: 50px;
+        line-height: 1.5;
+        
+    }
+    h3 {
+        font-size: 1.5rem;
+        font-family: 'Roboto', sans-serif;
+        color: #1c82ad;
+    }
+    h4{
+        font-family: 'Roboto', sans-serif;
+        color:#11acff;
+    }
+    h5{
+        font-family: 'Roboto', sans-serif;
+        color: black;
+        font-weight: 700;
+        font-size: 1.5rem;
+        line-height: 2.5;
+    }
+    p {
+        line-height: 2;
+    }
+    hr {
+        border: dotted #B2B9B8 7px;
+        border-bottom: none;
+        width: 4%;
+        margin: 100px auto;
+    }
+
+
+
+
+p {
+    color: #8f8f88;
+}
+/* Title sections */
+
+#title {
+    background-color: #03c988;
+    color: white;
+    text-align: center;
+}
+.#title.container-fluid {
+    padding: 20% 20% 20%;
+}
+.gradient-background {
+    background:linear-gradient(300deg,#00337c, #1c82ad, #03c988)
+}
+
+.lighter-background {
+    background:linear-gradient(300deg,#fff, #1c82ad, #03c988)
+}
+/* Headings */
+
+.big-heading {
+    font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif; 
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 2.5;
+    margin-top: 0px;
+    
+}
+.extra-margin {
+    padding-top: 50px;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+   
+}
+
+
+/* Navigation bar */
+
+.navbar {
+    padding-bottom: 1.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: white;
+}
+
+/* Download-buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Tittle Image */
+
+.title-image {
+width: 90%;
+transform: rotate(0deg);
+padding-top 3%;
+
+}
+
+/* Features section*/
+
+#features {
+    padding: 3% 15%;
+    background-color: #fff;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: #03c988;
+    margin-bottom: 1rem;
+}
+.icon:hover {
+    color: #00337c;
+}
+
+/* Testimonials section*/
+
+#testimonials {
+    text-align: center;
+    color: #fff;
+    background-color: #03c988;
+}
+
+.testimonial-image {
+    width: 12%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+#press {
+    background-color: #1c82ad;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+#socials {
+    background-color: #ff4c68;
+    color: white;
+    text-align: center;
+    padding: 0;
+}
+.social-icon {
+margin: 20px 10px;
+
+}
+
+/* CTA section*/
+
+#cta {
+    background-color: #1c82ad;
+    color: #fff;
+    padding: 7% 15%;
+}
+
+.cta-heading {
+    font-family: "Montserrat";
+    font-weight: 800;
+    font-size: 3.5rem;
+    line-height: 1.5;
+
+}
+
+.pricing {
+    padding: 5% 15%;
+}
+.social-icon {
+    margin 20px 10px;
+}
+
+#about {
+    padding: 3% 15%;
+    background-color: #fff;
+
+}
+@media (max-width: 1028px) {
+
+    . #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform:rotate(0);
+    }
+}
